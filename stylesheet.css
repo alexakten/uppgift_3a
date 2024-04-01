@@ -1,0 +1,65 @@
+
+/* Typografi för alla headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, sans-serif;
+}
+
+/* Typografi för övrig text, lite padding på sidorna */
+body {
+    font-family: Candara, sans-serif;
+    padding: 24px;
+}
+
+/* Titeln på tabellerna är bold och vänster-alignade */
+caption {
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Lilla svarta border under "Studenter" */
+th {
+    border-bottom: 1px solid black;
+}
+
+/* Tabell 1 med border och lite padding */
+.tabell1 {
+    background-color: #ffcccc;
+    border: 1px solid black;
+    text-align: left;
+    padding: 12px;
+}
+
+/* Tabell 2 med border och lite padding */
+.tabell2 {
+    background-color: #ffcc99;
+    border: 1px solid black;
+    text-align: left;
+    padding: 12px;
+}
+
+
+
+/* Den lilla texten längst ner i tabell 2 */
+.foot td {
+    background-color: black;
+    color: lightgray;
+    font-style: italic;
+    font-size: smaller;
+}
+
+/* Länken längst ner */
+#source {
+    color: #009900;
+    text-align: right;
+    font-style: italic;
+    font-size: smaller;
+}
+
+/* Länken är lila normalt */
+a {
+    color: purple
+}
+/* Länken blir blå på hover */
+a:hover {
+    color: blue;
+}       
